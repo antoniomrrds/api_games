@@ -1,8 +1,8 @@
 const {Sequelize} = require('sequelize')
 
 
-const connection =  new Sequelize('banco de dados','usuario  ','senha',{
-    host:'o host ou ip' ,
+const connection =  new Sequelize('api_games','scorpion','Reis23101996',{
+    host:'MARK-85' ,
     dialect:'mysql',
     timezone:'-03:00'
 })
