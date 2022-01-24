@@ -1,13 +1,6 @@
 module.exports = validation =>{
-const empty = value =>{
-    if(typeof value == 'string' && !value.trim()){
-        return true
-    }else{
-       
-        return false 
-    }
-}
-return {empty}
+    const empty =  value =>(typeof value == 'string' && !value.trim())? true:false
+    return {empty}
 }
 
 
