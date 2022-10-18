@@ -1,4 +1,4 @@
-onst {Sequelize} = require('sequelize')
+const {Sequelize} = require('sequelize')
 
 
 const connection =  new Sequelize('nome do banco de dados','usuario','senha',{
